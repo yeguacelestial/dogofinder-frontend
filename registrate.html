@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dogi Finder</title>
+  <title>Regístrate</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <main class="main-section-home background-dogs">
+  <main class="main-section-home">
     <div class="barra">
       <div class="barra-home contenedor">
         <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
@@ -21,17 +21,35 @@
         </nav>
       </div>
     </div>
-    
+
     <section>
       <div class="contenedor">
-        <h1>Dogo Finder</h1>
-        <h3>La nueva forma de encontrar a tus mascotas</h3>
-        <div class="botones">
-          <a href="registrate.html" class="boton btn1">Registrarse</a>
-          <a href="iniciar-sesion.html" class="boton btn2">Iniciar Sesión</a>
+        <div class="formulario">
+          <h2>Regístrate</h2>
+          <p>Ingresa los datos para crear una cuenta</p>
+
+          <form action="">
+            <label for="usuario"><i class="fas fa-user"></i></label>
+            <input type="text" id="usuario" placeholder="Nombre de usuario" required><br>
+
+            <label for="correo"><i class="fas fa-envelope"></i></label>
+            <input type="email" id="correo" placeholder="email@example.com" required><br>
+
+            <label for="contraseña"><i class="fas fa-unlock-alt"></i></label>
+            <input type="password" id="contraseña" placeholder="Contraseña" required><br>
+
+            <label for="verificacion"><i class="fas fa-lock"></i></label>
+            <input type="password" id="verificacion" placeholder="Verificar contraseña" required><br>
+
+            <input type="submit">
+          </form>
+
+          <p>¿Ya tienes una cuenta? <a href="iniciar-sesion.html">Inicia Sesión</a></p>
         </div>
+        
       </div>
     </section>
   </main>
+  
 </body>
 </html>
