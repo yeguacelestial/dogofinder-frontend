@@ -17,7 +17,7 @@ body{
 a {
   text-decoration: none;
 }
-/* Globales */
+/*============ Globales ============*/
 .contenedor {
   max-width: 1200px;
   margin: 0 auto;
@@ -30,11 +30,21 @@ h1 {
   font-weight: 800;
   margin: 0;
 }
+h2 {
+  font-family: 'Poppins',
+  sans-serif;
+  font-size: 2em;
+  margin: 0;
+}
 h3 {
   font-size: 4em;
   font-family: 'Oswald',
   sans-serif;
   font-weight: 300;
+  margin: 0;
+}
+p {
+  
   margin: 0;
 }
 .boton{
@@ -43,9 +53,27 @@ h3 {
   border-radius: 10px;
   transition: all .3s ease;
 }
+input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px;
+}
+input[type="submit"]{
+  background-color: #027edb;
+  color: #ffffff;
+  border-style: none;
+  margin-left: 40px;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #014e87;
+  transition: all .3s ease;
+}
 
 
-/* Barra Navegación*/
+/* ================= Barra Navegación ============= */
 .barra {
   background-color: #ffffff;
 }
@@ -73,9 +101,11 @@ h3 {
   color: #004aad;
 }
 
-/* Main Section*/
+/* =============== Main Section =================*/
 .main-section-home{
   height: 100vh;
+}
+.background-dogs {
   background-image: url(../img/perros.png);
   background-position: bottom center;
   background-size: cover;
@@ -109,4 +139,20 @@ h3 {
   width: 100%;
   align-items: center;
   text-align: center;
+}
+
+/* =============== Iniciar Sesión y Registro ============== */
+.formulario {
+  width: 50%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 110px;
+}
+.formulario form {
+  margin: 30px 0;
+}
+.formulario label i {
+  font-size: 1.5em;
 }
