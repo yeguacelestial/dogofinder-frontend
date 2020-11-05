@@ -142,13 +142,13 @@ input[type="submit"]:hover{
 }
 
 /* =============== Iniciar Sesión y Registro ============== */
-.formulario {
-  width: 50%;
+.formulario, .perfil-seccion{
+  max-width: 600px;
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 30px 20px;
   text-align: center;
-  margin-top: 110px;
+  margin-top: 50px;
 }
 .formulario form {
   margin: 30px 0;
@@ -156,3 +156,112 @@ input[type="submit"]:hover{
 .formulario label i {
   font-size: 1.5em;
 }
+
+.botones-iniciar-sesion {
+  display: flex;
+  align-items: center;
+}
+
+.botones-iniciar-sesion a{
+  flex-basis: calc(50% - 1rem);
+  background-color: #027edb;
+  color: #ffffff;
+  margin: 30px auto;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.botones-iniciar-sesion input[type="submit"] {
+  height: 100%;
+  flex-basis: calc(50% - 1rem);
+  margin: 30px auto;
+}
+
+.botones-registrate {
+  display: flex;
+  align-items: center;
+}
+
+.botones-registrate a{
+  flex-basis: calc(50% - 1rem);
+  background-color: #027edb;
+  color: #ffffff;
+  margin: 30px auto;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.botones-registrate input[type="submit"] {
+  height: 100%;
+  flex-basis: calc(50% - 1rem);
+  margin: 30px auto;
+}
+
+/* Perfil */
+.perfil-seccion h3 {
+  font-family: 'Poppins',
+  sans-serif;
+  font-size: 1.5em;
+}
+
+.img-perfil {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.secciones-perfil {
+  text-align: center;
+}
+
+.secciones-perfil a{
+  display: block;
+  width: 250px;
+  background-color: #027edb ;
+  color: #ffffff;
+  margin: 30px auto;
+  padding: 10px 40px;
+}
+
+.secciones-perfil a:hover {
+  background-color: #014e87;
+}
+
+/* Perfil settings*/
+.perfil-settings-seccion {
+  padding: 50px;
+}
+
+.hd-perfil-settings-seccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hd-perfil-settings-seccion img {
+  height: 70px;
+}
+
+.botones-perfil-settings {
+  display: flex;
+  align-items: center;
+}
+
+.botones-perfil-settings a{
+  flex-basis: calc(50% - 1rem);
+  background-color: #027edb;
+  color: #ffffff;
+  margin: 30px auto;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.botones-perfil-settings input[type="submit"] {
+  height: 100%;
+  flex-basis: calc(50% - 1rem);
+  margin: 30px auto;
+}
+
+.perfil-settings-seccion form {
+  text-align: left;
+}
+
