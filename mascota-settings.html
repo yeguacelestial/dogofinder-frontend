@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Mascotas </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <main class="main-section-home">
+    <div class="barra">
+      <div class="barra-home contenedor">
+        <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+        <nav class="nav-home">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+    </div>
+
+    <section>
+      <div class="contenedor">
+        <div class="perfil-seccion perfil-settings-seccion">
+
+          <div class="hd-perfil-settings-seccion">
+            <h2>Mi mascota</h2>
+            <img src="img/huella.png" alt="Image- Profile" class="img-perfil">
+          </div>
+          
+          <hr color="gray" size=1 width="100%">
+          
+          <form action="">
+            <label for="mascota">Nombre de la mascota: </label>
+            <input type="text" id="mascota" value="Lucas">
+
+            <label>Raza: </label>
+            <select name="combo"  for="raza">
+                <!-- Opciones de la lista -->
+                <option value="1" selected>Chihuahua</option>
+                <option value="2">Basenji</option> 
+                <option value="3">Buhund Noruego</option>
+                <option value="4">Bull Terrier Miniatura</option>
+              </select>
+
+            <label for="edad">&nbsp&nbsp&nbsp&nbsp Edad: </label>
+            <select name="combo" for="edad">
+                <!-- Opciones de la lista -->
+                <option value="1">1</option>
+                <option value="2">2</option> 
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option> 
+                <option value="6">6</option>
+                <option value="7"select>7</option>
+                <option value="8">8</option> 
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option> 
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option> 
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option> 
+                <option value="20">20</option>
+                <option value="21">21</option>
+              </select>
+
+            <p></p>  
+            <label for="direccion">Dirección del dueño: </label>
+            <input type="text" id="direccion" value="Calle # Entre">
+
+            <label for="telefono">Teléfono de contacto: </label>
+            <input type="int" id="telefono" value="123456789">
+            
+            <label for="imagen-mascota">Foto de la mascota: </label>
+            <input type="file" id="imagen-mascota">
+
+            <div class="botones-mascota-settings">
+              <a href="mascota.html">Regresar</a>
+              <input type="submit" value="Eliminar">
+              <input type="submit" value="Guardar cambios">
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+  
+</body>
+</html>

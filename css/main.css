@@ -265,3 +265,89 @@ input[type="submit"]:hover{
   text-align: left;
 }
 
+/* Mascotas */
+.mascota{
+  max-width: 600px;
+  background-color: #ffffff;
+  margin: 5px auto;
+  padding: 25px 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mascota_seccion{
+  max-width: 200px auto;
+}
+
+.img-mascota {
+  height: 95px;
+  border-radius: 50%;
+}
+
+.secciones-mascota a{
+  display: block;
+  width: 170px;
+  background-color: #027edb ;
+  color: #ffffff;
+  margin: 10px auto;
+  padding: 6px 10px;
+}
+
+.secciones-mascota a:hover {
+  background-color: #014e87;
+}
+
+/* Mascotas-Settig */
+
+.botones-mascota-settings {
+  display: flex;
+  align-items: center;
+}
+
+.botones-mascota-settings a{
+  flex-basis: calc(50% - 1rem);
+  background-color: #027edb;
+  color: #ffffff;
+  margin: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.botones-mascota-settings input[type="submit"] {
+  height: 80%;
+  flex-basis: calc(50% - 1rem);
+  margin: 20px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-30{
+  width: 30%;
+}
+
+.perfil-qr{
+  width: 30%;
+  height: 20%;
+}
+
+.texto-izq{
+  text-align: left;
+}
+
+.texto-center{
+  text-align: center;
+}
+
+.texto-der{
+  text-align: right;
+}
+
+.d-inline-block{
+  display: inline-block;
+}

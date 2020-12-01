@@ -1,0 +1,1 @@
+let peticion = document.getElementById('peticion')
